@@ -1,0 +1,195 @@
+<div class="container">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pacific_Gas_and_Electric_Company_%28logo%29.svg/800px-Pacific_Gas_and_Electric_Company_%28logo%29.svg.png" alt="" width="50" height="50">
+  <div class="topleft"></div>
+  <div class="header">
+
+    <h2>Settings</h2>
+  </div>  
+  <div class="title">
+    <h3><u> Device information</u></h3>
+  </div>
+  <!--- Operating Number --->
+  <form class="form-inline">
+    <div class="container">
+      <div class="row">
+        <div class="col-*-*">
+  
+    <label for="inputOperationNo" class="col-sm-2 col-form-label">Operating #: </label>
+    <input type="text" readonly class="form-control-plaintext"
+      id="inputOperationno"
+      >
+
+      <label class="sr-only" for="inputPassword">  Division: </label>
+      <input type="text" class="form-control" id="inputPassword">
+      <label class="sr-only" for="inputPassword"> Feeder Name: </label>
+      <input type="text" class="form-control" id="inputPassword">
+   
+  </div> 
+  <div class="form-group">
+   
+    <label for="inputlocation"> Location :</label>
+    <input type="text"
+      id="inputlocation" readonly
+        >
+     
+</div>
+ 
+<div class="form-group">
+  
+  <label for="devicetype"> Device Type:</label>
+  <input type="text"
+    id="inputdevtype" readonly
+    >
+        <label class="sr-only" for="inputPassword"> Operating Mode: </label>
+        <input type="text" class="form-control" id="inputPassword">
+ 
+    </div>
+   
+    <label class="sr-only" for="inputPassword"> SCADA: </label>
+    <input type="text" class="form-control" id="inputPassword">
+
+    <div class="form-group">
+  
+      <label for="engicomments"> Primary CT Rating :</label>
+      <input type="text"
+        id="engicomments" readonly
+        >
+
+        <div class="form-group">
+     
+          <label for="engicomments"> Engineering Comments :</label>
+          <input type="text1"
+            id="engicomments" readonly
+          >
+          <div class="form-group">
+         
+            <label for="engicomments"> Bypass Plan:</label>
+            <input type="text1"
+              id="engicomments" readonly
+              >
+       
+            <div class="title">
+              <h3><u>Settings information</u></h3>
+            </div>     
+
+<div class="form-group">
+
+     
+  <label for="minacucurrent">High Voltage Limit :</label>
+  <input type="text"
+    id="minacucurrent" readonly
+    >
+   
+      <label for="resettime">Reversible Threshold:</label>
+      <input type="text"
+        id="resettime" readonly
+        >
+  
+      <label for="resettime">Effective Block %:</label>
+      <input type="text"
+        id="resettime" readonly>
+       
+
+
+    
+    </div> 
+    <label class="sr-only" for="mingroundcurrent"> Low Voltage Limit : </label>
+    <input type="text" class="form-control" id="inputPassword">
+    </div>
+
+    <div class="form-group">
+      <div class="row">
+        <div class="column"> 
+<div class="title1">
+    <h3><u> UNIT 1</u></h3>
+</div>
+    <label class="sr-only" for="mingroundcurrent"> Control Type : </label>
+    <input type="text" class="form-control" id="inputPassword">
+    <table>
+      <h3><u>Forward</u></h3>
+      <tr>
+        <td></td>
+        <th scope="col">Voltage(120V)</th>
+        <th scope="col">Rset(Volt)</th>
+        <th scope="col">Xset(Volt)</th>
+        </tr>
+        <tr>
+          <th scope="row">A</th>
+          <td><input name="AVolt" type="text1" readonly id="AVolt" /></td>
+          <td><input name="ARset" type="text1" readonly id="ARset" /></td>
+          <td><input name="AXset" type="text1" readonly id="AXset" /></td>
+          </tr>
+          <tr>
+            <th scope="row">B</th>
+            <td><input name="BVolt" type="text1" readonly id="BVolt" /></td>
+            <td><input name="BRset" type="text1" readonly id="BRset" /></td>
+            <td><input name="BXset" type="text1" readonly id="BXset" /></td>
+            </tr>
+            <tr>
+              <th scope="row">C</th>
+              <td><input name="CVolt" type="text1" readonly id="CVolt" /></td>
+              <td><input name="CRset" type="text1" readonly id="CRset" /></td>
+              <td><input name="CXset" type="text1"readonly id="CXset" /></td>
+              </tr>
+</table>
+</div>
+<div class="column"> 
+
+<h3><u> UNIT 2</u></h3>
+<label class="sr-only" for="mingroundcurrent"> Control Type : </label>
+<input type="text" class="form-control" id="inputPassword">
+<table>
+  <h3><u>Reverse</u></h3>
+  <tr>
+    <td></td>
+    <th scope="col">Voltage(120V)</th>
+    <th scope="col">Rset(Volt)</th>
+    <th scope="col">Xset(Volt)</th>
+    </tr>
+    <tr>
+      <th scope="row">A</th>
+      <td><input name="AVolt1" type="text1" readonly id="AVolt1" /></td>
+      <td><input name="ARset1" type="text1" readonly id="ARset1" /></td>
+      <td><input name="AXset1" type="text1" readonly id="AXset1" /></td>
+      </tr>
+      <tr>
+        <th scope="row">B</th>
+        <td><input name="BVolt1" type="text1" readonly id="BVolt1" /></td>
+        <td><input name="BRset1" type="text1" readonly id="BRset1" /></td>
+        <td><input name="BXset1" type="text1" readonly id="BXset1" /></td>
+        </tr>
+        <tr>
+          <th scope="row">C</th>
+          <td><input name="CVolt1" type="text1" readonly id="CVolt1" /></td>
+          <td><input name="CRset1" type="text1" readonly id="CRset1" /></td>
+          <td><input name="CXset1" type="text1" readonly id="CXset1" /></td>
+          </tr>
+</table>
+</div>
+<div class="column"> 
+
+  <h3><u> UNIT 3</u></h3>
+  <label class="sr-only" for="mingroundcurrent"> Control Type : </label>
+  <input type="text" class="form-control" id="inputPassword">
+  <table>
+    <h3><u>Distributed Generation</u></h3>
+    <tr>
+      <td></td>
+      <th scope="col">Rset(Volt)</th>
+      <th scope="col">Xset(Volt)</th>
+      </tr>
+      <tr>
+        <th scope="row">A</th>
+        <td><input name="ARset" type="text1" readonly id="ARset" /></td>
+        <td><input name="AXset" type="text1" readonly id="AXset" /></td>
+        </tr>
+        <tr>
+          <th scope="row">B</th>
+          <td><input name="BRset" type="text1" readonly id="BRset" /></td>
+          <td><input name="BXset" type="text1" readonly id="BXset" /></td>
+          </tr>
+      
+</table>
+  </div>
+  
+</div>

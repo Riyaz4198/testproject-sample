@@ -1,0 +1,28 @@
+<body>
+  <form>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Pacific_Gas_and_Electric_Company_%28logo%29.svg/800px-Pacific_Gas_and_Electric_Company_%28logo%29.svg.png" alt="" width="50" height="50">
+    <div class="topleft"></div>
+    <div class="header">
+      <h1>Home Page</h1>
+    </div>  
+    
+    <div class="container" >
+      <p style ="text-align:center">
+      <label for="uname"><b>Global ID: </b></label>
+      <input type="text" placeholder="Enter Global ID" name="global"
+      
+      class="form-control" required onkeyup="if(this.value.length > 0) document.getElementById('submit').disabled = false; else document.getElementById('submit').disabled = true;"/>
+   
+  
+      <br>
+    
+      
+      <button type="submit" id="submit" disabled (click)="gotofusesaver()">Submit</button>
+      
+      
+    </p>
+    </div>
+  
+  
+  
